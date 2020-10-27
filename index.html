@@ -1,44 +1,46 @@
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Budget App</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+	<head>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    	<title>Budget App</title>
+    	<link rel="stylesheet" href="style.css" />
+	</head>
 
-    <div class="container">
-      <div class="header">
-        <h1>Budgeting</h1>
-      </div>
+	<body>
 
-       <div class="budget-section">
+  	<div class="container">
+    	<div class="header">
+    		<h1>Budgeting</h1>
+    	</div>
 
-        <div class="budget col col-md col-sm">
-          <h2>budget</h2> 
-          <p class="amount">$ <span id="budgetAmount">0</span></p>
+    <div class="budget-section">
+
+    	<div class="budget col col-md col-sm">
+        	<h2>budget</h2> 
+        	<p class="amount">$ <span id="budgetAmount">0</span></p>
         </div>
-      </div>
-
-      <div class="expenses col col-md col-sm">
-          <h2>expenses</h2>
-          <p class="exp-amount">$ <span id="expensesAmount">0</span></p>
-        </div>
-
-      <div class="balance col col-md col-sm">
-          <h2>balance</h2>  
-          <p class="amount">$ <span id="balanceAmount">0</span></p>
+      
+    	<div class="expenses col col-md col-sm">
+        	<h2>expenses</h2>
+        	<p class="exp-amount">$ <span id="expensesAmount">0</span></p>
         </div>
 
-	  </div>
+    	<div class="balance col col-md col-sm">
+        	<h2>balance</h2>  
+        	<p class="amount">$ <span id="balanceAmount">0</span></p>
+        </div>
 
-	  <div class="budget-form" id="budgetform">
-            <form id="addForm">
-              <label for=""> Enter your budget amount</label> <br>
-              <input type="number" id="number" /> <br>
-              <button type="submit">Add Budget</button>
-            </form>
-      </div>
+	</div>
+	</div>
 
-    <script src="js_data.js"></script>
-  </body>
+	<div class="budget-form" id="budgetform">
+        <form id="addForm">
+        	<label for=""> Enter your budget amount</label> <br>
+        	<input type="number" id="number" /> <br>
+        	<button type="submit">Add Budget</button>
+        </form>
+    </div>
+
+	<script src="js_data.js"></script>
+	
+	</body>
 </html>
