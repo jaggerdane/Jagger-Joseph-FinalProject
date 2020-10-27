@@ -40,5 +40,11 @@ h1 {
 }
 .amount {
   color: #317b22;
-
+}
+.exp-amount {
+  color: #b80c09;
+}
+.budget-form {
+  width: 100%;
+  min-height: 200px;
 }
