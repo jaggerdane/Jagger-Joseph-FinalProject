@@ -1,7 +1,7 @@
 <html>
 	<head>
     	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    	<title>Budget App</title>
+    	<title>Budget Calculator</title>
     	<link rel="stylesheet" href="style.css" />
 	</head>
 
@@ -9,7 +9,7 @@
 
   	<div class="container">
     	<div class="header">
-    		<h1>Budgeting</h1>
+    		<h1>Budget Calculator</h1>
     	</div>
 
     <div class="budget-section">
@@ -34,13 +34,26 @@
 
 	<div class="budget-form" id="budgetform">
         <form id="addForm">
-        	<label for=""> Enter your budget amount</label> <br>
+        	<label for=""> Enter your budget amount:</label> <br>
         	<input type="number" id="number" /> <br>
         	<button type="submit">Add Budget</button>
         </form>
     </div>
 
+    <div class="expense-form" id="expense-form">
+        <form action="" id="expForm">
+            <div class="">
+                <label for="">Enter the name of your expense:</label> <br>
+                <input type="text" id="expName" />
+            </div>
+            <div class="">
+                <label for="">Enter the expense amount:</label> <br>
+                <input type="number" id="expNumber" />
+            </div>
+            	<button type="submit" id="submitExpen">Add Expense</button>
+        </form>
+
 	<script src="js_data.js"></script>
-	
+
 	</body>
 </html>

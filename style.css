@@ -6,13 +6,16 @@ body {
   height: 100vh;
   background-color: #f5f5f5;
 }
+
 .container {
   min-height: 80vh;
 }
+
 .header {
   height: 60px;
   width: 100%;
 }
+
 h1 {
   margin: 0;
   text-align: center;
@@ -28,23 +31,33 @@ h1 {
   min-height: 160px;
   font-weight: 900;
 }
+
 .col {
   width: 40%;
   text-align: center;
   text-transform: capitalize;
 }
+
 .col p {
   font-size: 40px;
   padding-top: 5px;
   margin: 0;
 }
+
 .amount {
   color: #317b22;
 }
+
 .exp-amount {
   color: #b80c09;
 }
+
 .budget-form {
   width: 100%;
   min-height: 200px;
+}
+
+#expense-form {
+  width: 100%;
+  display: none;
 }
