@@ -19,3 +19,11 @@ h1 {
   font-family: "heading";
   padding-top: 10px;
 }
+.budget-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 160px;
+  font-weight: 900;
+}
