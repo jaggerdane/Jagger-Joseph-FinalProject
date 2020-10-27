@@ -19,6 +19,7 @@ h1 {
   font-family: "heading";
   padding-top: 10px;
 }
+
 .budget-section {
   display: flex;
   justify-content: space-around;
@@ -26,4 +27,18 @@ h1 {
   width: 100%;
   min-height: 160px;
   font-weight: 900;
+}
+.col {
+  width: 40%;
+  text-align: center;
+  text-transform: capitalize;
+}
+.col p {
+  font-size: 40px;
+  padding-top: 5px;
+  margin: 0;
+}
+.amount {
+  color: #317b22;
+
 }
