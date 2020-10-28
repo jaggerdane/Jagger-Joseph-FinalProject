@@ -104,3 +104,10 @@ h1 {
   background: none;
   border: none;
 }
+
+#back {
+  font-size: 14px;
+  margin: 1px 1px 15px 10px;
+  text-align: justify;
+  padding: 7;
+}
