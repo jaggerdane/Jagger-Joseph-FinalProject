@@ -46,6 +46,45 @@ function addExpenses(name, number) {
     expNumber.value = "";
   }
 
+function displayExp(details) {
+  expValue.innerHTML = null;
+  for (i = 0; i < details.length; i++) {
+    expValue.innerHTML += `
+    <div class="expValue" id="${details[i].id}">
+      <div id="expTitleName" class="exp"><p>${details[i].name}</p></div>
+      <div id="expValueAmount" class="exp"><p> <span>$ </span> ${details[i].number}</p></div>
+      <div id="delete">
+        <p>
+          <button id="${details[i].id}" onclick="delExpenseDetails(${details[i].id})">Remove</button>
+        </p>
+      </div>
+    </div>
+  `;
+  }
+  calcExpenses();
+  displayExpenses.style.display = "block";
+}
+
+function calcExpenses() {
+  let totalExp = 0;
+  for (i = 0; i < details.length; i++) {
+    totalExp = details[i].number + totalExp;
+  }
+  expensesAmount.innerText = totalExp;
+  updateBalance();
+}
+
+function updateBalance() {
+  balanceAmount.innerText =
+    parseInt(budgetAmount.innerText) - parseInt(expensesAmount.innerText);
+}
+
+function delExpenseDetails(id) {
+  let index = details.findIndex((item) => item.id === id);
+  details.splice(index, 1);
+  displayExp(details);
+}
+
   expForm.addEventListener("submit", (e) => {
   e.preventDefault();
   addExpenses(expName.value, expNumber.value);
