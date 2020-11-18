@@ -67,8 +67,9 @@ h1 {
 }
 
 .expValue {
+  border: none;
+  background: rgba(20, 200, 20, 0.1);
   display: flex;
-  justify-content: space-around;
   height: 40px;
   font-weight: 900;
   text-align: center;
