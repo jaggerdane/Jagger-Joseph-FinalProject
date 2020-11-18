@@ -115,5 +115,5 @@ h1 {
 #grad1 {
   height: 100px;
   background-color: red;
-  background-image: linear-gradient(to bottom right, red, yellow) ;
+  background-image: linear-gradient(to bottom right, forestgreen, yellow) ;
 }
