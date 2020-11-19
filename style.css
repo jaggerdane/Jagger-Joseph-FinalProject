@@ -84,7 +84,7 @@ form {
   text-align: center;
 }
 button {
-  padding: 7;
+  padding: 10;
   border: none;
   border-radius: 600px;
   background: lightblue;
@@ -121,10 +121,10 @@ button {
 }
 
 #back {
-  font-size: 14px;
+  font-size: 16px;
   margin: 1px 1px 15px 10px;
   text-align: justify;
-  padding: 7;
+  padding: 20;
   border: none;
   border-radius: 600px;
   background:#ff6961;
@@ -137,10 +137,10 @@ button {
 }
 
 input {
-  width: 30%;
-  padding: 8px 0;
+  width: 15%;
+  padding: 8px;
   border-radius: 6px;
-  border: 1px solid gray;
-  margin: 20px 0;
-  padding-left: 5px;
+  border: 2px solid gray;
+  margin: 20px;
+  padding-left: 10px;
   color: #495057;
