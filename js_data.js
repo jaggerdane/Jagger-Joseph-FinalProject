@@ -54,9 +54,9 @@ function displayExp(details) {
       <div id="expTitleName" class="exp"><p>${details[i].name}</p></div>
       <div id="expValueAmount" class="exp"><p> <span>$ </span> ${details[i].number}</p></div>
       <div id="delete">
-        <p>
+        
           <button id="${details[i].id}" onclick="delExpenseDetails(${details[i].id})">Remove</button>
-        </p>
+        
       </div>
     </div>
   `;
